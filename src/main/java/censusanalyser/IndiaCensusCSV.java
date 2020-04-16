@@ -4,8 +4,8 @@ import com.opencsv.bean.CsvBindByName;
 
 public class IndiaCensusCSV {
 
-    @CsvBindByName(column = "State", required = true)
-    public String state;
+    @CsvBindByName(column = "StateName", required = true)
+    public String stateName;
 
     @CsvBindByName(column = "Population", required = true)
     public int population;
@@ -19,7 +19,7 @@ public class IndiaCensusCSV {
     @Override
     public String toString() {
         return "IndiaCensusCSV{" +
-                "State='" + state + '\'' +
+                "State='" + stateName + '\'' +
                 ", Population='" + population + '\'' +
                 ", AreaInSqKm='" + areaInSqKm + '\'' +
                 ", DensityPerSqKm='" + densityPerSqKm + '\'' +

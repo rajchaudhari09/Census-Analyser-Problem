@@ -71,13 +71,14 @@ public class CensusAnalyserTest {
             e.printStackTrace();
         }
    }
+
     //THIS STATE CASE IS INDIA STATE CODE
     @Test
     public void givenIndiaStateCodeFile_ReturnsCorrectRecords() {
         try {
             CensusAnalyser censusAnalyser = new CensusAnalyser();
-            int numOfRecords = censusAnalyser.loadIndiaStateCode(INDIA_CENSUS_CSV_FILE_PATH);
-            Assert.assertEquals(29,numOfRecords);
+            int numOfRecords = censusAnalyser.loadIndiaStateCode(INDIA_STATE_CODE_FILE_PATH);
+            Assert.assertEquals(37,numOfRecords);
         } catch (CensusAnalyserException e) { }
     }
 

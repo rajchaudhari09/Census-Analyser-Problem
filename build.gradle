@@ -15,7 +15,5 @@ dependencies {
     // Set this dependency if you want to use Hamcrest matching
     testImplementation 'org.hamcrest:hamcrest-library:1.3'
     compile 'com.google.code.gson:gson:2.2.+'
-    // https://mvnrepository.com/artifact/com.opencsv/opencsv
-    compile group: 'com.opencsv', name: 'opencsv', version: '5.1'
-
+    compile "com.opencsv:opencsv:4.0"
 }

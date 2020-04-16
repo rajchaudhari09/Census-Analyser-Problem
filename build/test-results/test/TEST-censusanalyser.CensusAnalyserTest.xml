@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="censusanalyser.CensusAnalyserTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-16T02:25:11" hostname="rajchaudhari-HP-Notebook" time="0.151">
+<testsuite name="censusanalyser.CensusAnalyserTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-04-16T03:00:02" hostname="rajchaudhari-HP-Notebook" time="0.17">
   <properties/>
-  <testcase name="givenIndianCensusCSVFileReturnsCorrectRecords" classname="censusanalyser.CensusAnalyserTest" time="0.131"/>
-  <testcase name="givenIndiaCensusData_WithWrongFileDelimiter_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="0.008"/>
-  <testcase name="givenIndiaCensusData_WithWrongFile_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="0.004"/>
-  <testcase name="givenIndiaCensusData_WithWrongType_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="0.006"/>
+  <testcase name="givenIndiaStateCodeFile_ReturnsCorrectRecords" classname="censusanalyser.CensusAnalyserTest" time="0.097"/>
+  <testcase name="givenIndianCensusCSVFileReturnsCorrectRecords" classname="censusanalyser.CensusAnalyserTest" time="0.045"/>
+  <testcase name="givenIndiaCensusData_WithWrongFileDelimiter_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="0.007"/>
+  <testcase name="givenIndiaStateCode_WithWrongFile_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="0.005"/>
+  <testcase name="givenIndiaCensusData_WithWrongFile_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="0.001"/>
+  <testcase name="givenIndiaStateCodeCSVFile_WhenIncorrectHeader_ThenTrue" classname="censusanalyser.CensusAnalyserTest" time="0.003"/>
+  <testcase name="givenIndiaCensusData_WithWrongType_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="0.01"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
